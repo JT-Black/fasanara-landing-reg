@@ -1,10 +1,10 @@
 @font-face {
   font-family: futura;
-  src: url('/futura.ttc');
+  src: url('../futura.ttc');
 }
 @font-face {
   font-family: futura-thin;
-  src: url('/futura-thin.ttf');
+  src: url('../futura-thin.ttf');
 }
 @font-face {
   font-family: 'Work Sans', sans-serif;
@@ -74,7 +74,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 47vh;
-  background-image: url("/img/fasana-low-poly.gif");
+  background-image: url("../img/fasana-low-poly.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size:contain;  
