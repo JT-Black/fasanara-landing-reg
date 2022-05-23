@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fasanara Signup</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/glide.core.css" />
+    <link rel="stylesheet" href="/css/glide.theme.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <section class="section section--black">
+      <header>
+        <div class="logo-gif">
+          <div>FASANARA</div>
+          <br />
+          <div><span class="">CAPITAL</span></div>
+        </div>
+      </header>
+    </section>
+
+    <section class="section section--white">
+      <div class="container">
+        <div class="headline mb--large">
+          <p class="w--comfy-text">
+            We offer access to a range of inventive multi-asset
+            capacity-constrained niche products. Our unorthodox portfolio
+            construction and unconventional investment strategy is a response to
+            today’s transformational markets.
+          </p>
+        </div>
+        <div class="text--center">
+          <a
+            class="button"
+            href="javascript:document.getElementById('join-list').focus()"
+            >Get Informed</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="section pt--none">
+      <div class="container">
+        <div class="proof">
+          <p class="w--comfy-text-sm">
+            Google Reviews : 5.0 &#11088; &#11088; &#11088; &#11088; &#11088;
+            <br />
+            Fasanara Capital Awarded Best Multi-Strategy Emerging Manager
+            <br />
+            Fasanara is the 6th Fastest Growing Financial Services firm <br />
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="particles" class="section section--black">
+      <canvas id="item-canvas"> </canvas>
+      <div class="container">
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide text--center carousel thick">
+                FASANARA <span class="carousel thin">Fintech</span>
+              </li>
+              <li class="glide__slide text--center carousel thick">
+                FASANARA <span class="carousel thin">Open Quant</span>
+              </li>
+              <li class="glide__slide text--center carousel thick">
+                FASANARA <span class="carousel thin">Digital</span>
+              </li>
+              <li class="glide__slide text--center carousel thick">
+                FASANARA <span class="carousel thin">Ventures</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="proof">
+          <p class="w--comfy-text-sm">
+            Our latest fund launch raised over $350 million.<br />
+            Fasanara Capital manages approx $3.0 billion in assets under
+            management across four core strategies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer section--black">
+      <div class="container">
+        <div class="text--center">
+          <form action="">
+            <input id="join-list" type="text" placeholder="email" />
+            <a class="button--black" type="submit">Join The List</a>
+          </form>
+        </div>
+        <div class="text--center pt">
+          <a target="_blank" class="footlink" href="https://www.fasanara.com/"
+            >FASANERA CAPITAL</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <script src="/js/glide.js"></script>
+    <script>
+      const config = {
+        type: 'carousel',
+        autoplay: 3000,
+        perView: 1
+      };
+      new Glide('.glide', config).mount();
+    </script>
+
+    <script src="/js/EasePack.min.js"></script>
+    <script src="/js/TweenLite.min.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
