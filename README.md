@@ -31,7 +31,21 @@ I decided to build a top part of 100vh, and a bottom part of 100vh that would be
 - link to main site
 
 ### Wireframe / Planning:
+<p align="center">
+  <img src="./img/wireframe.png" width="85%"  />
+</p>
 
 ### Application Walkthrough:
+#### Landing
+<p style=border: "1px solid black" align="center">
+  <img src="./img/fasanara-top-fold.png" width="85%"  />
+</p>
+
+
+
+#### The Fold
+<p align="center">
+  <img src="./img/fasanara-bottom-fold.png" width="85%"  />
+</p>
 
 
